@@ -16,7 +16,7 @@
     "code:fix": "concurrently \"yarn tslint:run\" \"yarn prettier:run\"",
     "code:check": "concurrently \"yarn prettier:check\" \"yarn tslint:check\" \"yarn tsc:check\"",
     "start": "node -r dotenv/config dist/src/index.js",
-    "clean": "shx rm -r dist"
+    "clean": "shx rm -rf dist"
   },
   "dependencies": {
     "@types/ws": "^6.0.3",
