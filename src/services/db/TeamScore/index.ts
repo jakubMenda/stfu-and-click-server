@@ -10,7 +10,7 @@ class TeamMember extends Typegoose {
 }
 
 class TeamScore extends Typegoose {
-    @prop({ required: true })
+    @prop({ required: true, trim: true })
     name: string;
 
     @arrayProp({ required: true, items: TeamMember })
