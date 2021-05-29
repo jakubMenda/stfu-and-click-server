@@ -28,7 +28,7 @@
     "mongoose": "^5.7.12",
     "shx": "^0.3.2",
     "typegoose": "^5.9.1",
-    "ws": "^7.2.0",
+    "ws": "^7.4.6",
     "yup": "^0.27.0"
   },
   "devDependencies": {
